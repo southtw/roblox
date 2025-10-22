@@ -1,8 +1,5 @@
 local webhookUrl = ""
 
---/ i create new shit here without even testing
---/ so just use nalr version
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -533,5 +530,6 @@ local function onJobEnded()
 end
 
 JobEnded.OnClientEvent:Connect(onJobEnded)
+
 
 createnoti("script loaded", "nigger", 3)
