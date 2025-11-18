@@ -387,7 +387,6 @@ spawn(function()
     end
 end)
 
---super advanced watermark by 查特gpt
 local gui_text = Drawing.new("Text")
 gui_text.Text = "furryhub.real"
 gui_text.Position = Vector2.new(20, 20)
