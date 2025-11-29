@@ -1,1 +1,2 @@
-"stable"
+lastestver = true
+local ver = "stable"
