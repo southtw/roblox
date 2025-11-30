@@ -158,7 +158,7 @@ local isProcessing = false
 --local webhookEnabled = false
 --local webhookURL = ""
 
-local Window = Library.CreateLib("kamidere ($10000 script)", "Midnight")
+local Window = Library.CreateLib("Anime Life", "Midnight")
 
 local MainTab = Window:NewTab("main")
 local MainSection = MainTab:NewSection("aura farm")
@@ -296,7 +296,7 @@ end)
 
 WebhookSection:NewButton("Test Webhook", "Send test message", function()
     local embed = {
-        ["title"] = "Kamidere - Released",
+        ["title"] = "Anime Life",
         ["description"] = " ",
         ["color"] = 3447003,
         ["fields"] = {
@@ -533,3 +533,4 @@ JobEnded.OnClientEvent:Connect(onJobEnded)
 
 
 createnoti("script loaded", "nigger", 3)
+
