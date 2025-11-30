@@ -66,7 +66,7 @@ function SendMessageEMBED(url, embed)
     end)
 end
 
-local Window = Library.CreateLib("kamidere", "DarkTheme")
+local Window = Library.CreateLib("Anime Life", "DarkTheme")
 
 -- Main Tab
 local MainTab = Window:NewTab("main")
@@ -138,7 +138,7 @@ end)
 
 WebhookSection:NewButton("Test Webhook", "Send test message", function()
     local embed = {
-        ["title"] = "Kamidere - Released",
+        ["title"] = "Anime Life",
         ["description"] = " ",
         ["color"] = 3447003,
         ["fields"] = {
@@ -228,4 +228,5 @@ local InfoSection = InfoTab:NewSection("settings")
 
 InfoSection:NewKeybind("toggle ui", "kys", Enum.KeyCode.H, function()
     Library:ToggleUI()
+
 end)
